@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="< 2kb unopinionated utility for resizeable split views">
+    <title>Split.js</title>
+    <link rel="stylesheet" type="text/css" href="./gist.css">
+    <link rel="stylesheet" type="text/css" href="./splitjs.css">
+    <style>
+.gist-file {
+  margin-bottom: 2em !important;
+}
+
+.gist .gist-data {
+  border-bottom: 0 !important;
+}
+
+.gist-meta {
+  display: none;
+}
+
+.gist-data tr:last-child .blob-num {
+  border: none;
+}
+#logo-1, #logo-2,
+#js-1, #css-1, #html-1,
+#js-2, #css-2, #html-2 {
+    float: left;
+}
+#logo-1, #logo-2 {
+    height: 178px;
+}
+.gutter.logo-gutter {
+    background-color: #34495E;
+    margin-top: 0;
+}
+.gutter {
+    float: left;
+    background-color: #eee;
+    margin-top: 27px;
+    cursor: ew-resize;
+}
+.split-parent:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix::before {
+  display: table;
+  content: ""; }
+
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: ""; }
+    </style>
+</head>
+<body>
+
+
+<main class="container">
+<h2>Get Started</h2>
+<br /><br />
+
+<div class="split-parent">
+    <div id="js-1">
+        <h6 style="margin:0">JS</h6>
+        <div class="gist">
+        <div class="gist-file">
+        <div class="gist-data">
+        <div itemprop="text" class="blob-wrapper data type-javascript">
+              <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+              <tr>
+                <td class="blob-num" data-line-number="1"></td>
+                <td class="blob-code blob-code-inner js-file-line"><span class="pl-en">Split</span>([<span class="pl-s"><span class="pl-pds">&#39;</span>#one<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>#two<span class="pl-pds">&#39;</span></span>]);</td>
+              </tr>
+        </table>
+        </div>
+        asdfasdf<br/>
+        <hr/>
+        
+        <p>
+        asd
+        fas
+        dfas
+        fas
+        </p>
+        
+        <p>..... </p>
+        <p>..... </p>
+        <p>..... </p>
+        <p>..... </p>
+        <p>..... </p>
+        <p>..... </p>
+        <p>..... </p>
+        <p>..... </p>
+
+        </div>
+        </div>
+        </div>
+    </div>
+    <div id="html-1">
+        <h6 style="margin:0">HTML</h6>
+        <div class="gist">
+        <div class="gist-file" >
+        <div class="gist-data">
+        <div itemprop="text" class="blob-wrapper data type-html">
+              <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+              <tr>
+                <td class="blob-num" data-line-number="1"></td>
+                <td class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">div</span>&gt;</td>
+              </tr>
+              <tr>
+                <td class="blob-num" data-line-number="2"></td>
+                <td class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>split<span class="pl-pds">&quot;</span></span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>one<span class="pl-pds">&quot;</span></span>&gt;&lt;/<span class="pl-ent">div</span>&gt;</td>
+              </tr>
+              <tr>
+                <td class="blob-num" data-line-number="3"></td>
+                <td class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>split<span class="pl-pds">&quot;</span></span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>two<span class="pl-pds">&quot;</span></span>&gt;&lt;/<span class="pl-ent">div</span>&gt;</td>
+              </tr>
+              <tr>
+                <td class="blob-num" data-line-number="4"></td>
+                <td class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">div</span>&gt;</td>
+              </tr>
+        </table>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <div id="css-1">
+        <h6 style="margin:0">CSS</h6>
+        <div class="gist">
+        <div class="gist-file">
+        <div class="gist-data">
+        <div itemprop="text" class="blob-wrapper data type-css">
+              <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+              <tr>
+                <td class="blob-num" data-line-number="1"></td>
+                <td class="blob-code blob-code-inner js-file-line"><span class="pl-e">.split</span>, <span class="pl-e">.gutter.gutter-horizontal</span> {</td>
+              </tr>
+              <tr>
+                <td class="blob-num" data-line-number="2"></td>
+                <td class="blob-code blob-code-inner js-file-line">    <span class="pl-c1"><span class="pl-c1">float</span></span>: <span class="pl-c1">left</span>;</td>
+              </tr>
+              <tr>
+                <td class="blob-num" data-line-number="3"></td>
+                <td class="blob-code blob-code-inner js-file-line">}</td>
+              </tr>
+              <tr>
+                <td class="blob-num" data-line-number="4"></td>
+                <td class="blob-code blob-code-inner js-file-line"><span class="pl-e">.gutter.gutter-horizontal</span> {</td>
+              </tr>
+              <tr>
+                <td class="blob-num" data-line-number="5"></td>
+                <td class="blob-code blob-code-inner js-file-line">    <span class="pl-c1"><span class="pl-c1">cursor</span></span>: <span class="pl-c1">ew-resize</span>;</td>
+              </tr>
+              <tr>
+                <td class="blob-num" data-line-number="6"></td>
+                <td class="blob-code blob-code-inner js-file-line">}</td>
+              </tr>
+        </table>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
+</main>
+
+<script type="text/javascript" src="./split.min.js"></script>
+<script>
+
+Split(['#js-1', '#html-1', '#css-1'], {
+    gutter: function (index, direction) {
+        var gutter = document.createElement('div')
+        gutter.className = 'gutter gutter-' + direction
+        gutter.style.height = '440px'
+        return gutter
+    },
+    gutterSize: 5,
+})
+
+</script>
+</body>
+</html>
